@@ -30,7 +30,7 @@ apt install blueman
   ```
 - #### libreoffice
   ```bash
-  sudo apt instal libreoffice-core
+  sudo apt install libreoffice-core
   ```
 - #### thunderbird
   ```bash
