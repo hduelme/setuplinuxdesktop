@@ -44,7 +44,7 @@ apt install blueman
 ## password
 - #### bitwarden
   ```bash
-
+  sudo snap install bitwarden
   ```
 
 ---
@@ -173,7 +173,7 @@ apt install blueman
   ```
 - ## go-lang
   ```bash
-  sudo apt-get install golang 
+  sudo apt-get install golang
   ```
 - ## cobol
   ```bash
