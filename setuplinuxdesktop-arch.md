@@ -81,7 +81,7 @@
   ```bash
   sudo pacman -S vscode
   ```
-- ## code-oss *(open-source version of vscode)*
+- ## vscode (open-source-version)
   ```bash
   sudo pacman -S code
   ```
