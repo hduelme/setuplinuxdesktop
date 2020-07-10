@@ -2,6 +2,22 @@
 
 # drivers
 
+- #### razergenie (for Razer preripherals)
+  ```bash
+  pamac install razergenie
+  ```
+- #### iio-sensor-proxy (for rotation-sensor on mobile devices)
+  ```bash
+  pamac install iio-sensor-proxy
+  ```
+- #### xow (for Xbox-Wireless-Adapter)
+  ```bash
+  pamac install xow-git
+  ```
+- #### xpadneo (for Xbox Controller via bluetooth)
+  ```bash
+  pamac install xpadneo-dkms-git
+  ```
 
 ---
 
@@ -20,7 +36,14 @@
   ```bash
   pamac install google-chrome
   ```
-  
+- #### brave
+  ```bash
+  pamac install brave
+  ```
+- #### vivaldi
+  ```bash
+  pamac install vivaldi
+  ``` 
 ---
 
 ## office
@@ -48,6 +71,18 @@
   ```bash
   pamac install onlyoffice-desktopeditors
   ```
+- #### freeoffice
+  ```bash
+  pamac install freeoffice
+  ```
+- #### softmaker office 2018 (paid!)
+  ```bash
+  pamac install softmaker-office-2018
+  ```
+- #### softmaker office 2021 (paid!)
+  ```bash
+  pamac install softmaker-office-2021
+  ```
 
 ---
 
@@ -55,6 +90,10 @@
 - #### bitwarden
   ```bash
   pamac install bitwarden-bin
+  ```
+- #### keepassxc
+  ```bash
+  pamac install keepassxc
   ```
 
 ---
@@ -104,6 +143,10 @@
   ```bash
   pamac install gimp
   ```
+- #### krita
+  ```bash
+  pamac install krita
+  ```
 
 ---
 
@@ -112,7 +155,24 @@
   ```bash
   pamac install variety
   ```
+  
+---
 
+## misc
+
+- #### jdownloader
+  ```bash
+  pamac install jdownloader2
+  ```
+- #### balena-etcher
+  ```bash
+  pamac install etcher
+  ```
+- #### woeusb
+  ```bash
+  pamac install woeusb
+  ```
+  
 ---
 
 ## gaming
@@ -151,27 +211,27 @@
   ```bash
   pamac install eclipse-java
   ```
-- #### intelij (community)
+- #### intelij community
   ```bash
   pamac install intellij-idea-community-edition
   ```
-- #### intelij (ultimate)
+- #### intelij ultimate (paid!)
   ```bash
   pamac install intellij-idea-ultimate-edition
   ```
-- #### pycharm (community)
+- #### pycharm community
   ```bash
   pamac install pycharm-community-edition
   ```
-- #### pycharm (professional)
+- #### pycharm professional (paid!)
   ```bash
   pamac install pycharm-professional
   ```
-- #### clion
+- #### clion (paid!)
   ```bash
   pamac install clion
   ```
-- #### goland
+- #### goland (paid!)
   ```bash
   pamac install goland
   ```
