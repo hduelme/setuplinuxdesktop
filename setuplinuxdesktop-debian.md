@@ -94,7 +94,10 @@ apt install blueman
   ```bash
   sudo apt install steam
   ```
-
+- #### Minetest
+  ```bash
+  sudo apt install minetest
+  ```
 ---
 
 ## development
