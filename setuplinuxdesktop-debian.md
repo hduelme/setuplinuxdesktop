@@ -131,6 +131,10 @@ apt install blueman
 
 # programming-languages
 
+- ## git
+  ```bash
+  sudo apt install git
+  ```
 - ## php
   ```bash
   sudo apt install php php-common php-cli
