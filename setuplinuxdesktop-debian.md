@@ -142,31 +142,31 @@ apt install blueman
 ---
 
 ## development
-- ## atom
+- #### atom
   ```bash
   sudo snap install atom --classic
   ```
-- ## vscode
+- #### vscode
   ```bash
   sudo snap install code --classic
   ```
-- ## eclipse
+- #### eclipse
   ```bash
   sudo snap install eclipse --classic
   ```
-- ## intelij
+- #### intelij
   ```bash
   sudo snap install intellij-idea-community --classic
   ```
-- ## pycharm
+- #### pycharm
   ```bash
   sudo snap install pycharm-community --classic
   ```
-- ## clion
+- #### clion
   ```bash
   sudo snap install clion --classic
   ```
-- ## goland
+- #### goland
   ```bash
   sudo snap install goland --classic
   ```
@@ -175,15 +175,15 @@ apt install blueman
 
 # programming-languages
 
-- ## git
+- #### git
   ```bash
   sudo apt install git
   ```
-- ## docker
+- #### docker
   ```bash
   sudo apt install docker docker-compose
   ```
-- ## php
+- #### php
   ```bash
   sudo apt install php php-common php-cli
   ```
@@ -191,7 +191,7 @@ apt install blueman
   ```bash
   sudo apt install composer
   ```
-- ## nodejs
+- #### nodejs
   ```bash
   sudo apt install nodejs npm
   ```
@@ -199,7 +199,7 @@ apt install blueman
   ```bash
   sudo npm i sass
   ```
-- ## python
+- #### python
   ```bash
   sudo apt install python python3
   ```
@@ -207,19 +207,19 @@ apt install blueman
   ```bash
   sudo apt install python-pip python3-pip
   ```
-- ## java
+- #### java
   ```bash
   sudo apt install default-jdk
   ```
-- ## c
+- #### c
   ```bash
   sudo apt install gcc g++
   ```
-- ## go-lang
+- #### go-lang
   ```bash
   sudo apt-get install golang
   ```
-- ## cobol
+- #### cobol
   ```bash
   sudo apt install open-cobol
   ```
