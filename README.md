@@ -1,11 +1,6 @@
 # setuplinuxdesktop
 This Repository is a guide for all your programs you'll need.
 
-**Note**: 
-This repository is currently being edited, but is constantly being updated.
-You can also simply make a pull request.
-
-----
 
 ## Available distributions
 
@@ -15,5 +10,5 @@ You can also simply make a pull request.
 
 - [Manjaro](setuplinuxdesktop-manjaro.md)
 
+if a command should not work please write an issue at best with a working solution or make a pull-request
 
-// More distributions coming soon.

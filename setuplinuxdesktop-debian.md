@@ -22,6 +22,13 @@ apt install blueman
   ```bash
   sudo apt install chromium
   ```
+- #### google chrome
+  ```bash
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o /tmp/google-chrome-stable_current_amd64.deb
+  cd /tmp && sudo apt install ./google-chrome-stable_current_amd64.deb
+  ```
+  
+---
 
 ## office
 - #### wpsoffice
@@ -40,11 +47,29 @@ apt install blueman
   ```bash
   sudo apt install linphone
   ```
+- #### onlyoffice
+  ```bash
+  flatpak install flathub org.onlyoffice.desktopeditors
+  ```
+
+---
 
 ## password
 - #### bitwarden
   ```bash
   sudo snap install bitwarden
+  ```
+  
+---
+  
+## torrent clients
+- #### qbittorrent
+  ```bash
+  sudo apt install qbittorrent
+  ```
+- #### transmission
+  ```bash
+  sudo apt install chromium
   ```
 
 ---
@@ -57,6 +82,10 @@ apt install blueman
   - #### discord
   ```bash
   flatpak install flathub com.discordapp.Discord
+  ```
+  - #### vlc
+  ```bash
+  sudo apt install vlc
   ```
 
 ---
@@ -94,38 +123,50 @@ apt install blueman
   ```bash
   sudo apt install steam
   ```
-- #### Minetest
+- #### minetest
   ```bash
   sudo apt install minetest
+  ```
+- #### lutris
+  ```bash
+  echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
+  wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Release.key -O- | sudo apt-key add -
+  rm Release.key
+  sudo apt-get update
+  sudo apt-get install lutris
+  ```
+- #### minecraft java edition
+  ```bash
+  sudo snap install minecraft-launcher-ot
   ```
 ---
 
 ## development
-- ## atom
+- #### atom
   ```bash
   sudo snap install atom --classic
   ```
-- ## vscode
+- #### vscode
   ```bash
   sudo snap install code --classic
   ```
-- ## eclipse
+- #### eclipse
   ```bash
   sudo snap install eclipse --classic
   ```
-- ## intelij
+- #### intelij
   ```bash
   sudo snap install intellij-idea-community --classic
   ```
-- ## pycharm
+- #### pycharm
   ```bash
   sudo snap install pycharm-community --classic
   ```
-- ## clion
+- #### clion
   ```bash
   sudo snap install clion --classic
   ```
-- ## goland
+- #### goland
   ```bash
   sudo snap install goland --classic
   ```
@@ -134,15 +175,15 @@ apt install blueman
 
 # programming-languages
 
-- ## git
+- #### git
   ```bash
   sudo apt install git
   ```
-- ## docker
+- #### docker
   ```bash
   sudo apt install docker docker-compose
   ```
-- ## php
+- #### php
   ```bash
   sudo apt install php php-common php-cli
   ```
@@ -150,7 +191,7 @@ apt install blueman
   ```bash
   sudo apt install composer
   ```
-- ## nodejs
+- #### nodejs
   ```bash
   sudo apt install nodejs npm
   ```
@@ -158,7 +199,7 @@ apt install blueman
   ```bash
   sudo npm i sass
   ```
-- ## python
+- #### python
   ```bash
   sudo apt install python python3
   ```
@@ -166,19 +207,19 @@ apt install blueman
   ```bash
   sudo apt install python-pip python3-pip
   ```
-- ## java
+- #### java
   ```bash
   sudo apt install default-jdk
   ```
-- ## c
+- #### c
   ```bash
   sudo apt install gcc g++
   ```
-- ## go-lang
+- #### go-lang
   ```bash
   sudo apt-get install golang
   ```
-- ## cobol
+- #### cobol
   ```bash
   sudo apt install open-cobol
   ```
