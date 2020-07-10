@@ -16,6 +16,12 @@
   ```bash
   pamac install chromium
   ```
+- #### google chrome
+  ```bash
+  pamac install google-chrome
+  ```
+  
+---
 
 ## office
 - #### wpsoffice
@@ -38,11 +44,29 @@
   ```bash
   pamac install linphone-desktop-all
   ```
+- #### onlyoffice
+  ```bash
+  pamac install onlyoffice-desktopeditors
+  ```
+
+---
 
 ## password
 - #### bitwarden
   ```bash
   pamac install bitwarden-bin
+  ```
+
+---
+
+## torrent clients
+- #### qbittorrent
+  ```bash
+  pamac install qbittorrent
+  ```
+- #### transmission
+  ```bash
+  pamac install transmission
   ```
 
 ---
@@ -55,6 +79,10 @@
   - #### discord
   ```bash
   pamac install discord
+  ```
+  - #### vlc
+  ```bash
+  pamac install vlc
   ```
 
 ---
@@ -95,6 +123,14 @@
 - #### minetest
   ```bash
   pamac install minetest
+  ```
+- #### lutris
+  ```bash
+  pamac install lutris
+  ```
+- #### minecraft java edition
+  ```bash
+  pamac install minecraft-launcher
   ```
 ---
 
