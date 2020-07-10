@@ -25,7 +25,7 @@ apt install blueman
 - #### google chrome
   ```bash
   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o /tmp/google-chrome-stable_current_amd64.deb
-  sudo apt install ./google-chrome-stable_current_amd64.deb
+  cd /tmp && sudo apt install ./google-chrome-stable_current_amd64.deb
   ```
   
 ---
