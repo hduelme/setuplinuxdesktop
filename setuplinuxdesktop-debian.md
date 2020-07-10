@@ -24,7 +24,7 @@ apt install blueman
   ```
 - #### google chrome
   ```bash
-  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o /tmp/google-chrome-stable_current_amd64.deb
   sudo apt install ./google-chrome-stable_current_amd64.deb
   ```
   
@@ -131,6 +131,7 @@ apt install blueman
   ```bash
   echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
   wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Release.key -O- | sudo apt-key add -
+  rm Release.key
   sudo apt-get update
   sudo apt-get install lutris
   ```
