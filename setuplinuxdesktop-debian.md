@@ -22,6 +22,13 @@ apt install blueman
   ```bash
   sudo apt install chromium
   ```
+- #### google chrome
+  ```bash
+  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o /tmp/google-chrome-stable_current_amd64.deb
+  cd /tmp && sudo apt install ./google-chrome-stable_current_amd64.deb
+  ```
+  
+---
 
 ## office
 - #### wpsoffice
@@ -40,11 +47,29 @@ apt install blueman
   ```bash
   sudo apt install linphone
   ```
+- #### onlyoffice
+  ```bash
+  flatpak install flathub org.onlyoffice.desktopeditors
+  ```
+
+---
 
 ## password
 - #### bitwarden
   ```bash
   sudo snap install bitwarden
+  ```
+  
+---
+  
+## torrent clients
+- #### qbittorrent
+  ```bash
+  sudo apt install qbittorrent
+  ```
+- #### transmission
+  ```bash
+  sudo apt install chromium
   ```
 
 ---
@@ -57,6 +82,10 @@ apt install blueman
   - #### discord
   ```bash
   flatpak install flathub com.discordapp.Discord
+  ```
+  - #### vlc
+  ```bash
+  sudo apt install vlc
   ```
 
 ---
@@ -94,9 +123,21 @@ apt install blueman
   ```bash
   sudo apt install steam
   ```
-- #### Minetest
+- #### minetest
   ```bash
   sudo apt install minetest
+  ```
+- #### lutris
+  ```bash
+  echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
+  wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Release.key -O- | sudo apt-key add -
+  rm Release.key
+  sudo apt-get update
+  sudo apt-get install lutris
+  ```
+- #### minecraft java edition
+  ```bash
+  sudo snap install minecraft-launcher-ot
   ```
 ---
 
