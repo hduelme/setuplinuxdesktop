@@ -36,7 +36,6 @@
 ---
 
 ## media
-  ```
   - #### discord
   ```bash
   sudo pacman -S discord
@@ -73,35 +72,35 @@
 ---
 
 ## development
-- ## atom
+- #### atom
   ```bash
   sudo pacman -S atom
   ```
-- ## vscode
+- #### vscode
   ```bash
   sudo pacman -S vscode
   ```
-- ## vscode (open-source-version)
+- #### vscode (open-source-version)
   ```bash
   sudo pacman -S code
   ```
-<!--## eclipse
+<!--#### eclipse
   ```bash
   sudo snap install eclipse --classic
   ```
-- ## intelij
+- #### intelij
   ```bash
   sudo snap install intellij-idea-community --classic
   ```
-- ## pycharm
+- #### pycharm
   ```bash
   sudo snap install pycharm-community --classic
   ```
-- ## clion
+- #### clion
   ```bash
   sudo snap install clion --classic
   ```
-- ## goland
+- #### goland
   ```bash
   sudo snap install goland --classic
   ```
@@ -110,15 +109,15 @@
 
 # programming-languages
 
-- ## git
+- #### git
   ```bash
   sudo apt install git
   ```
-- ## docker
+- #### docker
   ```bash
   sudo apt install docker docker-compose
   ```
-- ## php
+- #### php
   ```bash
   sudo apt install php php-common php-cli
   ```
@@ -126,7 +125,7 @@
   ```bash
   sudo apt install composer
   ```
-- ## nodejs
+- #### nodejs
   ```bash
   sudo apt install nodejs npm
   ```
@@ -134,7 +133,7 @@
   ```bash
   sudo npm i sass
   ```
-- ## python
+- #### python
   ```bash
   sudo apt install python python3
   ```
@@ -142,19 +141,19 @@
   ```bash
   sudo apt install python-pip python3-pip
   ```
-- ## java
+- #### java
   ```bash
   sudo apt install default-jdk
   ```
-- ## c
+- #### c
   ```bash
   sudo apt install gcc g++
   ```
-- ## go-lang
+- #### go-lang
   ```bash
   sudo apt-get install golang
   ```
-- ## cobol
+- #### cobol
   ```bash
   sudo apt install open-cobol
   ```-->
