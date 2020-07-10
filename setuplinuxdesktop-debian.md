@@ -135,6 +135,10 @@ apt install blueman
   ```bash
   sudo apt install git
   ```
+- ## docker
+  ```bash
+  sudo apt install docker docker-compose
+  ```
 - ## php
   ```bash
   sudo apt install php php-common php-cli
