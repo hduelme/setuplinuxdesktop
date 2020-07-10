@@ -1,4 +1,4 @@
-# setuplinuxdesktop
+# setup-linux-desktop
 This Repository is a guide for all your programs you'll need.
 
 
