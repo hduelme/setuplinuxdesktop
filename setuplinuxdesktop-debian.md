@@ -171,6 +171,10 @@ apt install blueman
   ```bash
   sudo apt install gcc g++
   ```
+- ## go-lang
+  ```bash
+  sudo apt-get install golang 
+  ```
 - ## cobol
   ```bash
   sudo apt install open-cobol
