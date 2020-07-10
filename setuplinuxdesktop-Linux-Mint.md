@@ -1,4 +1,4 @@
-# setuplinuxdesktop (debian)
+# setuplinuxdesktop (Linux Mint)
 
 # drivers
 
