@@ -170,6 +170,10 @@ apt install blueman
   ```bash
   sudo snap install goland --classic
   ```
+- #### filezilla
+  ```
+  sudo apt install filezilla
+  ```
 
 ---
 
