@@ -1,4 +1,4 @@
-# setuplinuxdesktop (debian)
+# setuplinuxdesktop (manjaro)
 
 # drivers
 
@@ -135,43 +135,43 @@
 ---
 
 ## development
-- ## atom
+- #### atom
   ```bash
   pamac install atom
   ```
-- ## vscode (oss)
+- #### vscode (oss)
   ```bash
   pamac install code
   ```
-- ## vscode (non-oss)
+- #### vscode (non-oss)
   ```bash
   pamac install visual-studio-code-bin
   ```
-- ## eclipse (java)
+- #### eclipse (java)
   ```bash
   pamac install eclipse-java
   ```
-- ## intelij (community)
+- #### intelij (community)
   ```bash
   pamac install intellij-idea-community-edition
   ```
-- ## intelij (ultimate)
+- #### intelij (ultimate)
   ```bash
   pamac install intellij-idea-ultimate-edition
   ```
-- ## pycharm (community)
+- #### pycharm (community)
   ```bash
   pamac install pycharm-community-edition
   ```
-- ## pycharm (professional)
+- #### pycharm (professional)
   ```bash
   pamac install pycharm-professional
   ```
-- ## clion
+- #### clion
   ```bash
   pamac install clion
   ```
-- ## goland
+- #### goland
   ```bash
   pamac install goland
   ```
@@ -180,15 +180,15 @@
 
 # programming-languages
 
-- ## git
+- #### git
   ```bash
   pamac install git
   ```
-- ## docker
+- #### docker
   ```bash
   pamac install docker docker-compose
   ```
-- ## php
+- #### php
   ```bash
   pamac install php
   ```
@@ -196,7 +196,7 @@
   ```bash
   pamac install composer
   ```
-- ## nodejs
+- #### nodejs
   ```bash
   pamac install nodejs npm
   ```
@@ -204,7 +204,7 @@
   ```bash
   sudo npm i sass
   ```
-- ## python
+- #### python
   ```bash
   pamac install python
   ```
@@ -212,31 +212,31 @@
   ```bash
   pamac install python-pip
   ```
-- ## java 8
+- #### java 8
   ```bash
   pamac install jre8-openjdk
   ```
-- ## java 11
+- #### java 11
   ```bash
   pamac install jre11-openjdk
   ```
-- ## java 8 (jdk)
+- #### java 8 (jdk)
   ```bash
   pamac install jdk8-openjdk
   ```
-- ## java 11 (jdk)
+- #### java 11 (jdk)
   ```bash
   pamac install jdk11-openjdk
   ```
-- ## c
+- #### c
   ```bash
   pamac install gcc
   ```
-- ## go-lang
+- #### go-lang
   ```bash
   pamac install go
   ```
-- ## cobol
+- #### cobol
   ```bash
   pamac install gnucobol
   ```
