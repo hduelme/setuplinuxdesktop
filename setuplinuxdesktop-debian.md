@@ -43,6 +43,10 @@ apt install blueman
   ```bash
   sudo apt install thunderbird
   ```
+- #### Slack
+  ```bash
+  flatpak install flathub com.slack.Slack
+  ```
 - #### linphone
   ```bash
   sudo apt install linphone
@@ -169,6 +173,10 @@ apt install blueman
 - #### goland
   ```bash
   sudo snap install goland --classic
+  ```
+- #### filezilla
+  ```bash
+  sudo apt install filezilla
   ```
 
 ---
