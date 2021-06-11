@@ -46,7 +46,7 @@
 ## media-production
 - #### obs
   ```bash
-  sudo pacman -S obs
+  sudo pacman -S obs-studio
   ```
 - #### audacity
   ```bash
